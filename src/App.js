@@ -1,12 +1,12 @@
-import React from 'react';
-import './App.scss';
-
-function App() {
-  return (
-    <div className="app">
-      this is my first react app!
-    </div>
-  );
+import React, { Component } from 'react';
+import "./App.scss";
+import Todo from './Component/Todo/Todo';
+class App extends Component {
+    render() {
+        return (
+            <Todo />
+        );
+    }
 }
 
 export default App;
